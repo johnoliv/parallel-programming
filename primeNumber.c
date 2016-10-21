@@ -6,17 +6,19 @@
  * www.johnatan.net
  * Version 0.1
  *
- * Este programa busca por todos os números primos em um intervalo estipulado de 2 a m e
- * exibe o resultado de acordo com a opção escolhida pelo usuario.
- * Entrada:
- *     - argv[1] = Limite m (Busca numeros primos de 2 a m)
- *     - argv[2] = Opção de Saida 
- *         - time: Uma linha contendo o tempo de execucão do programa.
- *         - list: Uma linha contendo a lista de números primos.
- *         - sum: Uma linha contendo a soma dos números primos.
- *         - all: Lista de números primos, soma destes números e o tempo de execução. Nesta ordem. 
- *     - argv[3] = Quantidade de Threads a serem criadas
+ * This program seeks by all the prime numbers in a stipulated range of 2 to m and
+ * displays the result according to the chosen by user option.
  *
+ * - Exec: ./primeNumber “limit” “option” “number of threads”
+ *   - argv[1] = Limit m (Find prime number of 2 to m);
+ *   - argv[2] = Output Option;
+ *     - time: One line with time of execution;
+ *     - list: One line with a list of prime numbers;
+ *     - sum: One line with sum of prime numbers;
+ *     - all: List of prime numbers, the sum of these numbers and the time of execution. In this order;
+ *   - argv[3] = Threads number to be created;
+ *
+ * - Compile: gcc -fopenmp -o primeNumber primeNumber.c
  * ---------------------------------------------------------------
  * WARNING: THIS IS NOT THE BEST METHOD TO MEET PRIME NUMBERS, 
  * THERE ARE OTHER METHODS MORE EFFICIENT. THIS IS ONLY AN EXAMPLE.
