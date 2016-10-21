@@ -1,6 +1,11 @@
-/* 
+/*  
  * File: oceanSerial.c
-*/
+ * Ocean Approuch Serial Version
+ * 
+ * Author: Johnatan Oliveira ~ johnoliv[at]gmail.com
+ * www.johnatan.net
+ * Version 0.1
+ */
 
 #include <stdio.h>
 #include <string.h>
