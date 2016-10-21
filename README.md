@@ -1,6 +1,8 @@
 # parallel-programming
 Some examples of parallel programming
 
+>> WARNING: EXAMPLES BELOW ARE NOT MOST EFFICIENT. THEY WERE CONSTRUCTED FOR TESTING, PERFORMANCE COMPARISON AND PARALLEL PROGRAMMING PRACTICE.
+
 ------
 # File: primeNumber.c
 
@@ -18,7 +20,7 @@ Some examples of parallel programming
     - sum: One line with sum of prime numbers;
     - all: List of prime numbers, the sum of these numbers and the time of execution. In this order;
   - argv[3] = Threads number to be created;
-
+ 
 ------
 # File: primeNumberS.c
 
