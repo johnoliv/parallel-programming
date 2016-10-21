@@ -1,6 +1,12 @@
 /*
  * File: primeNumberS.c
  *
+ * Prime Number Finder Serial Version
+ *
+ * Author: Johnatan Oliveira ~ johnoliv[at]gmail.com
+ * www.johnatan.net
+ * Version 0.1
+ *
  * Este programa busca por todos os números primos em um intervalo estipulado de 2 a m e
  * exibe o resultado de acordo com a opção escolhida pelo usuario.
  * Entrada:
@@ -11,6 +17,11 @@
  *         - sum: Uma linha contendo a soma dos números primos.
  *         - all: Lista de números primos, soma destes números e o tempo de execução. Nesta ordem. 
  *     - argv[3] = Quantidade de Threads a serem criadas
+ * 
+ * ---------------------------------------------------------------
+ * WARNING: THIS IS NOT THE BEST METHOD TO MEET PRIME NUMBERS, 
+ * THERE ARE OTHER METHODS MORE EFFICIENT. THIS IS ONLY AN EXAMPLE.
+ * ---------------------------------------------------------------
  */
 
 #include <stdio.h>
