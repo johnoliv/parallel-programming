@@ -1,5 +1,10 @@
 /*
  * File: primeNumber.c
+ * Prime Number Finder with OpenMP (Open Multi-Processing)
+ *
+ * Author: Johnatan Oliveira ~ johnoliv[at]gmail.com
+ * www.johnatan.net
+ * Version 0.1
  *
  * Este programa busca por todos os números primos em um intervalo estipulado de 2 a m e
  * exibe o resultado de acordo com a opção escolhida pelo usuario.
@@ -11,7 +16,7 @@
  *         - sum: Uma linha contendo a soma dos números primos.
  *         - all: Lista de números primos, soma destes números e o tempo de execução. Nesta ordem. 
  *     - argv[3] = Quantidade de Threads a serem criadas
- */
+ */ 
 
 #include <stdio.h>
 #include <omp.h>
