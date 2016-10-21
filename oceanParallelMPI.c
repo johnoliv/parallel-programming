@@ -1,6 +1,11 @@
-/* 
+/*  
  * File: oceanParallelMPI.c
-*/
+ * Ocean Approuch with Message Passing Interface (MPI)
+ * 
+ * Author: Johnatan Oliveira ~ johnoliv[at]gmail.com
+ * www.johnatan.net
+ * Version 0.1
+ */
 
 #include <mpi.h>
 #include <stdio.h>
