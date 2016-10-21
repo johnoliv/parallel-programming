@@ -1,6 +1,11 @@
 /*  
  * File: oceanParallel.c
-*/
+ * Ocean Approuch with POSIX Threads (Pthreads)
+ * 
+ * Author: Johnatan Oliveira ~ johnoliv[at]gmail.com
+ * www.johnatan.net
+ * Version 0.1
+ */
 
 #include <stdio.h>
 #include <string.h>
