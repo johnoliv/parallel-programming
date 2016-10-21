@@ -6,6 +6,8 @@ Some examples of parallel programming
 
 - Prime Number Finder with OpenMP (Open Multi-Processing)
 
+- This program seeks by all the prime numbers in a stipulated range of 2 to m and displays the result according to the chosen by user option.
+
 - Compile: gcc -fopenmp -o primeNumber primeNumber.c
 
 - Exec: ./primeNumber “limit” “option” “number of threads”
